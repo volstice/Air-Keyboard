@@ -1,8 +1,10 @@
+#================================================Imports=======================================================
 import cv2
 import mediapipe as mp
 import time
 import math
 
+#==================================================Functions=======================================================
 
 class handDetector():
     def __init__(self, mode=False, maxHands=2, modelComp=1, detectionCon=0.5, trackCon=0.5):
@@ -85,7 +87,8 @@ class handDetector():
         length = math.hypot(x2 - x1, y2 - y1)
         return length, img, [x1, y1, x2, y2, cx, cy]
 
-
+#=======================================================Main Process==========================================
+    
 try:
     def main():
         pTime = 0
