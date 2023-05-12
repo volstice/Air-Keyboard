@@ -5,7 +5,7 @@ import time
 import math
 
 #==================================================Functions=======================================================
-
+#--------------------------------------------------Detects Hands----------------------------------------------------
 class handDetector():
     def __init__(self, mode=False, maxHands=2, modelComp=1, detectionCon=0.5, trackCon=0.5):
         self.mode = mode
