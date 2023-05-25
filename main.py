@@ -1,7 +1,7 @@
 #=====================================================Import=====================================================
 import cv2
 import HandTrackModule as htm
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 cap.set(3,1920)
 cap.set(4,1080)
 
